@@ -1,0 +1,268 @@
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    font-family: "Abel", sans-serif;
+  }
+  
+  
+  
+  .navbar {
+    z-index:5;
+     -webkit-backdrop-filter: blur(5px); 
+  
+    backdrop-filter: blur(5px);
+  
+    height: 7rem;
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+  
+    color: white;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .logo{
+    position:absolute;
+    top:1rem;
+  height:5rem;
+  
+  
+  }
+  
+  
+  
+  .navlist {
+    display: flex;
+    justify-content: space-evenly;
+  
+    color: white;
+  }
+  
+  .navele {
+    
+    padding: 0rem 4rem;
+    height:2rem;
+    color:white;
+    
+    
+  }
+  
+  .navele a{
+    color:white;
+    text-decoration: none;
+  }
+  
+  
+  .break{
+      height:7.5rem;
+      background-color: black;
+  }
+
+
+ 
+  /* Foot Panel */
+
+.foot-panel{
+    background-color: #494848;
+    
+    color:white;
+    
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:70px;
+  
+  }
+  
+  .foot-panel2{
+    background-color: #8f8f8f;
+    line-height:150%;
+    color:#ffffff;
+    display:flex;
+    justify-content: space-evenly;
+    padding: 20px;
+  
+  }
+  
+  foot-panel2 ul p{
+    
+    margin-top:10px;
+  }
+  
+  foot-panel2 ul{
+    
+    margin-top:20px;
+  }
+  
+  
+  .copyright{
+    background-color:#585858;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 80%;
+    padding:20px;
+  }
+  
+  .redirect a{
+    color:rgb(248, 248, 248);
+    padding:10px;
+  }
+
+  /* rotating logo css code */
+
+  .rotate {
+    animation: rotation 2s;
+  }
+  
+  .linear {
+    animation-timing-function: linear;
+  }
+  
+  .infinite {
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+
+  /* */
+
+  .pagebreak {
+    height:5rem;
+    width:100%;
+  
+  }
+  
+  .container2{
+    
+   display: flex;
+      align-items: center;
+      justify-content: center
+    
+  }
+  
+  
+  .heading{
+    font-size:125%;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+  
+  }
+  
+  .text1{
+    font-size:70%;
+    padding:2rem;
+  }
+  
+  img {
+    max-width: 100%;
+    max-height:100%;
+  }
+  
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .hover-underline-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .hover-underline-animation2 {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .hover-underline-animation2::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 20px;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .hover-underline-animation2:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  .biggercontainer{
+    padding:4rem;
+
+    /*border-radius:5rem;
+    margin:2rem; */
+    background-color: rgb(0, 0, 0);
+  }
+
+  .teamcard{
+    color:white;
+    margin:3rem;
+  }
+
+  .card-section{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  .card-section iframe{
+    background-color: black;
+  }
+  .memimg{
+    
+    width:100%;
+    height:20rem;
+    border: none; /* Remove iframe border */
+    pointer-events: none; /* Disable clicking on the iframe */
+    object-fit: cover;
+
+  }
+  
+ 
+
+  .pos{
+    color:rgb(255, 140, 0);
+  }
